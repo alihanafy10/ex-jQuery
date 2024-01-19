@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  cursor: pointer;
+}
+ul{
+      list-style-type: none;
+}
+#Home{
+  width: 100%;
+  height: 600px;
+  background-image: url(../imge/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+#Home .overlay{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#Home .openNav{
+  font-size:30px;
+}
+#home-content{
+  margin-left: 0;
+  padding: 16px;
+   height: 100%;
+}
+#home-content :first-child{
+  margin-top: 140px;
+}
+.three-dash{
+  cursor: pointer;
+}
+
+#Home .overlay .bar{
+  width: 0;
+  background-color: #111111;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+overflow: hidden;
+z-index: 1000;
+}
+#Home .overlay .bar a{
+  color: white;
+  text-decoration: none;
+  padding: 20px 8px 20px 32px;
+  font-size: 25px;
+  transition: 0.3s;
+}
+#Home .overlay .bar a.closeX{
+  align-self: flex-end;
+  padding: 10px 30px;
+}
+#Home .overlay .bar a:hover{
+  color:rgba(214, 46, 51 , 0.4);;
+}
+#Duration h2{
+  background-color: #E68285;
+  padding: 10px;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+#Duration p{
+  background-color: #CCCCCC;
+  margin: 0;
+  padding: 10px;
+}
+
+#Details .im{
+  padding: 100px 0;
+    background-image: url(../imge/invitation-2508607__340.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#Details .layout{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51 , 0.6);
+
+}
+#Details .layer{
+  padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+#Details .row{
+  position: relative;
+}
+
+#Contact{
+  padding: 100px 0;
+  color: #777777;
+}
+#Contact h2,#Contact h3,#Contact input{
+color: #444444;
+}
+#Contact input::placeholder{
+  color: #777777;
+}
+#Contact ul li{
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+#Contact ul li i{
+  transition: 0.3s;
+}
+#Contact ul li:hover{
+  border-color:#D62E33 ;
+  background-color: #D62E33;
+}
+#Contact ul li:hover i{
+  color: white;
+}
